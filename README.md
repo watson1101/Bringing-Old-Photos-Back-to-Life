@@ -2,7 +2,7 @@
 
 <img src='imgs/0001.jpg'/>
 
-### [Project Page](http://raywzy.com/Old_Photo/) | [Paper (CVPR version)](https://arxiv.org/abs/2004.09484) | [Paper (Journal version)](https://arxiv.org/pdf/2009.07047v1.pdf) | [Pretrained Model](https://portland-my.sharepoint.com/:f:/g/personal/ziyuwan2-c_ad_cityu_edu_hk/Eh1gtjfLiWtLiBDGZhaTvokBvDUdvA5j49f_NpL_Pp9FPA?e=7EddTf) | [Colab Demo](https://colab.research.google.com/drive/1NEm6AsybIiC5TwTU_4DqDkQO0nFRB-uA?usp=sharing)
+### [Project Page](http://raywzy.com/Old_Photo/) | [Paper (CVPR version)](https://arxiv.org/abs/2004.09484) | [Paper (Journal version)](https://arxiv.org/pdf/2009.07047v1.pdf) | [Pretrained Model](https://portland-my.sharepoint.com/:f:/g/personal/ziyuwan2-c_ad_cityu_edu_hk/Eh1gtjfLiWtLiBDGZhaTvokBvDUdvA5j49f_NpL_Pp9FPA?e=7EddTf) | [Colab Demo](https://colab.research.google.com/drive/1NEm6AsybIiC5TwTU_4DqDkQO0nFRB-uA?usp=sharing) :fire:
 
 **Bringing Old Photos Back to Life, CVPR2020 (Oral)**
 
@@ -70,6 +70,8 @@ pip install -r requirements.txt
 ```
 
 ## How to use?
+
+**Note**:GPU can be set 0 or 0,1,2 or 0,2; use -1 for CPU
 
 ### 1) Full Pipeline
 
@@ -176,6 +178,8 @@ Year = {2020},
 Eprint = {arXiv:2009.07047},
 }
 ```
+
+If you are also interested in the legacy photo/video colorization, please refer to [this work](https://github.com/zhangmozhe/video-colorization).
 
 
 ## Maintenance
